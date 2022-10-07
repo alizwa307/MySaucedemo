@@ -41,11 +41,11 @@ Feature: Login
 
     Examples: Usernames and Password
       |username  | password | message |
-#      | standard_user        |alizwa | Epic sadface: Username and password do not match any user in this service |
-      | standard_user  |secret_sauce | PRODUCTS|
-#      | locked_out_user  |secret_sauce | Epic sadface: Sorry, this user has been locked out. |
-      | problem_user        |secret_sauce | PRODUCTS |
-      | performance_glitch_user  |secret_sauce | PRODUCTS |
+      | standard_user        |alizwa | Epic sadface: Username and password do not match any user in this service |
+#      | standard_user  |secret_sauce | PRODUCTS|
+      | locked_out_user  |secret_sauce | Epic sadface: Sorry, this user has been locked out. |
+#      | problem_user        |secret_sauce | PRODUCTS |
+#      | performance_glitch_user  |secret_sauce | PRODUCTS |
 
 
 

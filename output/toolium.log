@@ -1742,3 +1742,33 @@ DEBUG   2022-10-05 14:13:04,984 [driver_wrapper] Window size: 1382 x 736
 DEBUG   2022-10-05 14:13:04,984 [connectionpool] http://localhost:52231 "POST /session/002a901bb80dd56e5a25f436d9b3d99d/timeouts HTTP/1.1" 200 14
 INFO    2022-10-05 14:13:04,984 [environment] Running new scenario: All login -- @1.3 Usernames and Password
 INFO    2022-10-05 14:13:32,603 [environment] The scenario 'All login -- @1.3 Usernames and Password' has passed
+DEBUG   2022-10-07 09:18:32,910 [config_parser] Reading properties from file: C:\Users\alizw\OneDrive\Documents\Saucedemo\conf\properties.cfg
+DEBUG   2022-10-07 09:18:32,925 [config_parser] Properties config file not found: C:\Users\alizw\OneDrive\Documents\Saucedemo\conf\local-properties.cfg
+INFO    2022-10-07 09:18:32,957 [config_driver] Creating local driver (type = chrome)
+DEBUG   2022-10-07 09:18:32,957 [config_driver] Chrome driver path given in properties: C:\Driver\chromedriver
+DEBUG   2022-10-07 09:18:32,957 [config_driver] Added chrome argument: allow-no-sandbox-job=false
+DEBUG   2022-10-07 09:18:34,537 [connectionpool] Starting new HTTP connection (1): localhost:50233
+DEBUG   2022-10-07 09:18:40,421 [connectionpool] http://localhost:50233 "POST /session HTTP/1.1" 200 788
+DEBUG   2022-10-07 09:18:40,546 [connectionpool] http://localhost:50233 "POST /session/93940cbd4d895fff67bd7884a0b7663a/window/rect HTTP/1.1" 200 49
+DEBUG   2022-10-07 09:18:40,546 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2022-10-07 09:18:40,730 [connectionpool] http://localhost:50233 "POST /session/93940cbd4d895fff67bd7884a0b7663a/window/maximize HTTP/1.1" 200 51
+DEBUG   2022-10-07 09:18:40,736 [connectionpool] http://localhost:50233 "GET /session/93940cbd4d895fff67bd7884a0b7663a/window/rect HTTP/1.1" 200 51
+DEBUG   2022-10-07 09:18:40,737 [driver_wrapper] Window size: 1382 x 736
+DEBUG   2022-10-07 09:18:40,741 [connectionpool] http://localhost:50233 "POST /session/93940cbd4d895fff67bd7884a0b7663a/timeouts HTTP/1.1" 200 14
+INFO    2022-10-07 09:18:40,742 [environment] Running new scenario: All login -- @1.1 Usernames and Password
+INFO    2022-10-07 09:19:05,713 [environment] The scenario 'All login -- @1.1 Usernames and Password' has passed
+DEBUG   2022-10-07 09:19:08,049 [config_parser] Reading properties from file: C:\Users\alizw\OneDrive\Documents\Saucedemo\conf\properties.cfg
+DEBUG   2022-10-07 09:19:08,049 [config_parser] Properties config file not found: C:\Users\alizw\OneDrive\Documents\Saucedemo\conf\local-properties.cfg
+INFO    2022-10-07 09:19:08,049 [config_driver] Creating local driver (type = chrome)
+DEBUG   2022-10-07 09:19:08,049 [config_driver] Chrome driver path given in properties: C:\Driver\chromedriver
+DEBUG   2022-10-07 09:19:08,049 [config_driver] Added chrome argument: allow-no-sandbox-job=false
+DEBUG   2022-10-07 09:19:08,564 [connectionpool] Starting new HTTP connection (1): localhost:50317
+DEBUG   2022-10-07 09:19:09,366 [connectionpool] http://localhost:50317 "POST /session HTTP/1.1" 200 790
+DEBUG   2022-10-07 09:19:09,481 [connectionpool] http://localhost:50317 "POST /session/350a5d5b45949aa465f6bb50dea5d650/window/rect HTTP/1.1" 200 49
+DEBUG   2022-10-07 09:19:09,481 [driver_wrapper] Window bounds: 0 x 0
+DEBUG   2022-10-07 09:19:09,596 [connectionpool] http://localhost:50317 "POST /session/350a5d5b45949aa465f6bb50dea5d650/window/maximize HTTP/1.1" 200 51
+DEBUG   2022-10-07 09:19:09,596 [connectionpool] http://localhost:50317 "GET /session/350a5d5b45949aa465f6bb50dea5d650/window/rect HTTP/1.1" 200 51
+DEBUG   2022-10-07 09:19:09,596 [driver_wrapper] Window size: 1382 x 736
+DEBUG   2022-10-07 09:19:09,596 [connectionpool] http://localhost:50317 "POST /session/350a5d5b45949aa465f6bb50dea5d650/timeouts HTTP/1.1" 200 14
+INFO    2022-10-07 09:19:09,596 [environment] Running new scenario: All login -- @1.2 Usernames and Password
+INFO    2022-10-07 09:19:31,737 [environment] The scenario 'All login -- @1.2 Usernames and Password' has passed
