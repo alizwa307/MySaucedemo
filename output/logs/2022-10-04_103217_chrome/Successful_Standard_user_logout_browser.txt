@@ -1,0 +1,6 @@
+
+2022-10-04 10:32:18.984074 'Successful_Standard_user_logout' test logs with driver = chrome
+
+2022-10-04 10:32:18.824000	WARNING	chrome-error://chromewebdata/ 6791:10 "crbug/1173575, non-JS module files deprecated."
+2022-10-04 10:32:18.875000	WARNING	chrome-error://chromewebdata/ 6791:10 "crbug/1173575, non-JS module files deprecated."
+2022-10-04 10:32:18.898000	WARNING	chrome-error://chromewebdata/ 6791:10 "crbug/1173575, non-JS module files deprecated."

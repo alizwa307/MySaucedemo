@@ -1,0 +1,8 @@
+
+2022-09-29 16:24:22.719024 'Locked_out_user_login' test logs with driver = chrome
+
+2022-09-29 16:24:14.409000	SEVERE	https://www.saucedemo.com/static/media/Login_Bot_graphic.20658452.png - Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+2022-09-29 16:24:14.425000	SEVERE	https://www.saucedemo.com/manifest.json - Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+2022-09-29 16:24:14.425000	SEVERE	https://www.saucedemo.com/favicon.ico - Failed to load resource: net::ERR_INTERNET_DISCONNECTED
+2022-09-29 16:24:14.456000	SEVERE	network - An unknown error occurred when fetching the script.
+2022-09-29 16:24:14.460000	SEVERE	https://www.saucedemo.com/static/js/main.3db41035.chunk.js 0:47295 "Error during service worker registration:" TypeError: Failed to register a ServiceWorker for scope ('https://www.saucedemo.com/') with script ('https://www.saucedemo.com/service-worker.js'): An unknown error occurred when fetching the script.
