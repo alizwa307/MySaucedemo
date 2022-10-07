@@ -30,5 +30,6 @@ def step_impl(context):
 @then('the message "{message}" is shown')
 def step_impl(context, message):
     context.current_page = LoginPageObjects()
-    assert message in context.current_page.find_message()
+    assert message in context.current_page.get_message()
+    # assert message in context.current_page.find_message()
     time.sleep(5)
